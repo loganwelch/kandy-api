@@ -1,201 +1,219 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Bilbo Baggins",
-            "email": "bilbo@theshire.com",
-            "isStaff": true
-        },
-        {
-            "id": 2,
-            "name": "Gandalf",
-            "email": "wizardboi@hotmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 3,
-            "name": "Sauromon",
-            "email": "darklord@mordor.com",
-            "isStaff": false
-        },
-        {
-            "id": 4,
-            "name": "Samwise Gamgee",
-            "email": "gardenluvr@obsessedwithfrodo.com",
-            "isStaff": false
-        },
-        {
-            "id": 5,
-            "name": "Legolas",
-            "email": "sniper@player.com",
-            "isStaff": false
-        },
-        {
-            "id": 6,
-            "name": "Aragorn",
-            "email": "lonewulf@hehe.com",
-            "isStaff": false
-        },
-        {
-            "id": 7,
-            "name": "Gimli",
-            "email": "axeguy@nerd.com",
-            "isStaff": false
-        },
-        {
-            "id": 8,
-            "name": "Gollum",
-            "email": "precious@myprecious.com",
-            "isStaff": true
-        },
-        {
-            "id": 9,
-            "name": "Frodo Baggins",
-            "email": "thechosen@one.com",
-            "isStaff": false
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "userId": 1,
-            "startDate": "200 BC",
-            "payRate": 12.75,
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "startDate": "1250 BC",
-            "payRate": 30,
-            "locationId": 2
-        },
-        {
-            "id": 3,
-            "userId": 8,
-            "startDate": "500 BC",
-            "payRate": 18.95,
-            "locationId": 3
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "userId": 3,
-            "loyaltyNumber": 55468
-        },
-        {
-            "id": 2,
-            "userId": 4,
-            "loyaltyNumber": 48879
-        },
-        {
-            "id": 3,
-            "userId": 5,
-            "loyaltyNumber": 35557
-        },
-        {
-            "id": 4,
-            "userId": 6,
-            "loyaltyNumber": 79847
-        },
-        {
-            "id": 5,
-            "userId": 7,
-            "loyaltyNumber": 35787
-        },
-        {
-            "id": 6,
-            "userId": 9,
-            "loyaltyNumber": 98768
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "420 Shire Cove",
-            "squareFootage": 1200
-        },
-        {
-            "id": 2,
-            "address": "100 Eagle's Nest Way",
-            "squareFootage": 350
-        },
-        {
-            "id": 3,
-            "address": "33 Mount Doom Circle",
-            "squareFootage": 45000
-        }
-    ],
-    "purchases": [],
-    "products": [
-        {
-            "id": 1,
-            "name": "Nerds Gummy Clusters",
-            "productTypeId": 1,
-            "ppu": 7
-        },
-        {
-            "id": 2,
-            "name": "M&Ms",
-            "productTypeId": 2,
-            "ppu": 3
-        },
-        {
-            "id": 3,
-            "name": "Nerds Ropes",
-            "productTypeId": 1,
-            "ppu": 4
-        },
-        {
-            "id": 4,
-            "name": "Sour Patch Kids",
-            "productTypeId": 1,
-            "ppu": 8
-        },
-        {
-            "id": 5,
-            "name": "Skittles",
-            "productTypeId": 1,
-            "ppu": 4
-        },
-        {
-            "id": 6,
-            "name": "Hershey Kiss",
-            "productTypeId": 2,
-            "ppu": 1
-        },
-        {
-            "id": 7,
-            "name": "Everlasting Gobstopper",
-            "productTypeId": 3,
-            "ppu": 4
-        },
-        {
-            "id": 8,
-            "name": "Lemon Heads",
-            "productTypeId": 3,
-            "ppu": 1.25
-        },
-        {
-            "id": 9,
-            "name": "Kit-Kat",
-            "productTypeId": 2,
-            "ppu": 2
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "name": "Chewy Candies"
-        },
-        {
-            "id": 2,
-            "name": "Chocolate Candies"
-        },
-        {
-            "id": 3,
-            "name": "Hard Candies"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Bilbo Baggins",
+      "email": "bilbo@theshire.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Gandalf",
+      "email": "wizardboi@hotmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Sauromon",
+      "email": "darklord@mordor.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Samwise Gamgee",
+      "email": "gardenluvr@obsessedwithfrodo.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Legolas",
+      "email": "sniper@player.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Aragorn",
+      "email": "lonewulf@hehe.com",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "name": "Gimli",
+      "email": "axeguy@nerd.com",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "name": "Gollum",
+      "email": "precious@myprecious.com",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "name": "Frodo Baggins",
+      "email": "thechosen@one.com",
+      "isStaff": false
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "startDate": "200 BC",
+      "payRate": 12.75,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "startDate": "1250 BC",
+      "payRate": 30,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "userId": 8,
+      "startDate": "500 BC",
+      "payRate": 18.95,
+      "locationId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 3,
+      "loyaltyNumber": 55468
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "loyaltyNumber": 48879
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "loyaltyNumber": 35557
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "loyaltyNumber": 79847
+    },
+    {
+      "id": 5,
+      "userId": 7,
+      "loyaltyNumber": 35787
+    },
+    {
+      "id": 6,
+      "userId": 9,
+      "loyaltyNumber": 98768
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "420 Shire Cove",
+      "squareFootage": 1200
+    },
+    {
+      "id": 2,
+      "address": "100 Eagle's Nest Way",
+      "squareFootage": 350
+    },
+    {
+      "id": 3,
+      "address": "33 Mount Doom Circle",
+      "squareFootage": 45000
+    }
+  ],
+  "purchases": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nerds Gummy Clusters",
+      "productTypeId": 1,
+      "ppu": 7
+    },
+    {
+      "id": 2,
+      "name": "M&Ms",
+      "productTypeId": 2,
+      "ppu": 3
+    },
+    {
+      "id": 3,
+      "name": "Nerds Ropes",
+      "productTypeId": 1,
+      "ppu": 4
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "productTypeId": 1,
+      "ppu": 8
+    },
+    {
+      "id": 5,
+      "name": "Skittles",
+      "productTypeId": 1,
+      "ppu": 4
+    },
+    {
+      "id": 6,
+      "name": "Hershey Kiss",
+      "productTypeId": 2,
+      "ppu": 1
+    },
+    {
+      "id": 7,
+      "name": "Everlasting Gobstopper",
+      "productTypeId": 3,
+      "ppu": 4
+    },
+    {
+      "id": 8,
+      "name": "Lemon Heads",
+      "productTypeId": 3,
+      "ppu": 1.25
+    },
+    {
+      "id": 9,
+      "name": "Kit-Kat",
+      "productTypeId": 2,
+      "ppu": 2
+    },
+    {
+      "name": "Lollipop",
+      "productTypeId": "3",
+      "ppu": "1",
+      "id": 10
+    },
+    {
+      "name": "Jolly Ranchers",
+      "productTypeId": "3",
+      "ppu": "3.25",
+      "id": 11
+    },
+    {
+      "name": "Peppermint",
+      "productTypeId": "3",
+      "ppu": ".25",
+      "id": 12
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Chewy Candies"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Candies"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candies"
+    }
+  ]
 }
